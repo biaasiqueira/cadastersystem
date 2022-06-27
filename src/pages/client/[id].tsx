@@ -1,3 +1,4 @@
+//@ts-nocheck
 import type {NextPage} from 'next'
 import React, {useEffect, useState} from "react";
 import firebase from "../../config/firebaseClient";

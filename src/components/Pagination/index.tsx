@@ -1,3 +1,4 @@
+//@ts-nocheck
 import {useEffect, useState} from "react";
 import firebase from "../../config/firebaseClient";
 import * as A from "antd";
