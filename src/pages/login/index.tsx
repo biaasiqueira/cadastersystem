@@ -5,7 +5,7 @@ import * as A from "antd";
 import {parseCookies} from "nookies";
 import {useRouter} from "next/router";
 
-export default (_props: any) => {
+const Login = (_props: any) => {
     const [email, setEmail] = useState('');
     const [pass, setPass] = useState('');
     const {'cadaster_system_token': token} = parseCookies()
@@ -73,3 +73,5 @@ export default (_props: any) => {
         </A.Form>
     );
 };
+
+export default Login
